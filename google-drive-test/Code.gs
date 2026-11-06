@@ -1,7 +1,7 @@
 // Deploy as Web app: Execute as Me, access Anyone. Testing only.
 // Drive folder is private. Public endpoint has a shared submission secret.
 // Do not use for production or high-volume events.
-const FOLDER_ID = '1B0gMb_TlZYAIWEbrt5X12Mjx4l4f1h09';
+const FOLDER_ID = '1gJ8MygRu8kpAzpXKdSbhrLKCjcMIMuRf';
 const DEFAULTS = {name:'QR Video Booth Test',duration:5,countdown:3,cooldown:5,retention:2,open:true};
 function setup() {
   const p=PropertiesService.getScriptProperties();
